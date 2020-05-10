@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 if (module === require.main) {
   // Start the server
   
-  const server = app.listen(8080, () => {
+  const server = app.listen(3000, () => {
     const port = server.address().port;
     console.log(`App listening on port ${port}`);
   });
